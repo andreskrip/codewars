@@ -9,7 +9,7 @@
  * solution('abcdef') // should return ['ab', 'cd', 'ef']
  */
 
-function solution($str)
+function solution($str): array
 {
     // return empty array if incoming array is empty
     if (empty($str)) {
