@@ -10,7 +10,7 @@
 
 function DNA_strand($dna)
 {
-    //fragmenting the string into array
+    // transform the string into array
     $fragmentDna = str_split($dna);
     //create the empty string where will be kept the result DNA
     $resultDna = '';
